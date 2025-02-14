@@ -1,0 +1,3 @@
+# Dart reduce() method error on empty list
+
+This repository demonstrates a common error encountered when using the `reduce()` method in Dart with an empty list. The `reduce()` method requires at least one element in the list to perform its operation; otherwise, it throws a `RangeError`. This example shows how to handle this error using a simple check to ensure the list is not empty before calling `reduce()`. The solution includes a conditional check to handle the case of an empty list, preventing the error and providing a default value (0 in this case).
